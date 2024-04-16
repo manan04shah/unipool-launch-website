@@ -21,16 +21,16 @@ export default function Navbar() {
                     Download
                 </h2>
             </Link>
-            {/* <a href="/report">
+            {/* <Link href="/report">
                 <h2 className="text-text-purple transition duration-300 hover:underline transform hover:-translate-y-1">
                     Report a Bug
                 </h2>
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link href="/contact">
                 <h2 className="text-text-purple transition duration-300 hover:underline transform hover:-translate-y-1">
                     Contact Us
                 </h2>
-            </a> */}
+            </Link> */}
         </div>
     );
 }

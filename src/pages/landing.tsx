@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import "../app/globals.css"
+import Link from "next/link";
 
 
 export default function Landing() {
@@ -29,11 +30,11 @@ export default function Landing() {
                     </h2>
                 </div>
                 <div className="download-button pt-5">
-                    <a href="/download">
+                    <Link href="/download">
                         <button className="bg-text-purple text-white rounded-full px-4 py-2 w-[15vw]">
                             Download
                         </button>
-                    </a>
+                    </Link>
                 </div>
                 <div className="acm-vit pt-5">
                     <h3 className="text-text-purple text-sm font-semibold">
