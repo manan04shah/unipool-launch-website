@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+.car-gif-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.car-gif-2 {
+    position: absolute;
+    left: -100%;
+    animation: carMove 5s linear infinite;
+}
+
+@keyframes carMove {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
 @layer base {
     :root {
         --background: 0 0% 100%;

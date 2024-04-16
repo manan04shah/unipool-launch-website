@@ -2,12 +2,13 @@ import React from "react";
 import Image from "next/image";
 import "../app/globals.css"
 import Link from "next/link";
+import "../app/globals.css"
 
 
 export default function Landing() {
     return (
-        <div className="h-dvh w-full flex">
-            <div className="left-box bg-white w-1/2 h-full flex flex-col justify-center items-center p-10">
+        <div className="h-dvh w-full flex md:flex-row flex-col">
+            <div className="left-box bg-white w-full order-2 md:order-1 md:w-1/2 h-full flex flex-col justify-center items-center p-10">
                 <div className="text-div mt-5 w-full">
                     <div className="top-text flex">
                         <h1 className="text-4xl font-extrabold text-text-purple">
@@ -31,7 +32,7 @@ export default function Landing() {
                 </div>
                 <div className="download-button pt-5">
                     <Link href="/download">
-                        <button className="bg-text-purple text-white rounded-full px-4 py-2 w-[15vw]">
+                        <button className="bg-text-purple text-white rounded-full px-4 py-2 w-[65vw] md:w-[15vw]">
                             Download
                         </button>
                     </Link>
@@ -42,7 +43,7 @@ export default function Landing() {
                     </h3>
                 </div>
             </div>
-            <div className="right-box bg-main-grey w-1/2 h-full flex justify-center items-center p-10">
+            <div className="right-box order-1 md:order-2 bg-main-grey w-full md:w-1/2 h-full flex justify-center items-center p-10">
                 <Image
                     src="/unipool-main-logo.svg"
                     alt="Landing"

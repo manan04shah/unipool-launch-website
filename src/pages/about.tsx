@@ -7,12 +7,12 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-import "../app/globals.css"
+import "../app/globals.css";
 import Navbar from "./navbar";
 
 export default function About() {
     return (
-        <div className="h-dvh w-full flex justify-center items-center overflow-hidden">
+        <div className="relative h-dvh w-full flex justify-center items-center overflow-hidden">
             <Navbar />
             <div className="h-[80vh] w-full flex justify-center items-center align-middle">
                 <Carousel>
@@ -62,7 +62,8 @@ export default function About() {
                                 quality={100}
                             />
                             <h2 className="text-white text-xl font-bold text-center pt-5">
-                                Accept or reject requests based on your preference
+                                Accept or reject requests based on your
+                                preference
                             </h2>
                         </CarouselItem>
                     </CarouselContent>
