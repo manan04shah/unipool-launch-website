@@ -20,7 +20,7 @@ export default function About() {
                         <CarouselItem className="flex flex-col justify-center items-center">
                             <Image
                                 src="/host.svg"
-                                alt="About"
+                                alt="Host a ride screenshot"
                                 width={250}
                                 height={250}
                                 quality={100}
@@ -31,8 +31,8 @@ export default function About() {
                         </CarouselItem>
                         <CarouselItem className="flex flex-col justify-center items-center">
                             <Image
-                                src="/Available-rides.svg"
-                                alt="About"
+                                src="/available.svg"
+                                alt="Available rides screenshot"
                                 width={250}
                                 height={250}
                                 quality={100}
@@ -43,8 +43,8 @@ export default function About() {
                         </CarouselItem>
                         <CarouselItem className="flex flex-col justify-center items-center">
                             <Image
-                                src="/interested-riders.svg"
-                                alt="About"
+                                src="/interested.svg"
+                                alt="Interested riders screenshot"
                                 width={250}
                                 height={250}
                                 quality={100}
@@ -55,8 +55,20 @@ export default function About() {
                         </CarouselItem>
                         <CarouselItem className="flex flex-col justify-center items-center">
                             <Image
+                                src="/request.svg"
+                                alt="Request page screenshot"
+                                width={250}
+                                height={250}
+                                quality={100}
+                            />
+                            <h2 className="text-white text-xl font-bold text-center pt-5">
+                                Request to join someone's carpool!
+                            </h2>
+                        </CarouselItem>
+                        <CarouselItem className="flex flex-col justify-center items-center">
+                            <Image
                                 src="/reject.svg"
-                                alt="About"
+                                alt="Accept/Reject page screenshot"
                                 width={250}
                                 height={250}
                                 quality={100}

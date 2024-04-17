@@ -18,9 +18,7 @@ export default function Download() {
     return (
         <div className="relative w-full h-screen overflow-hidden">
             <Navbar />
-            {/* Overlay div to hold content */}
             <div className="absolute inset-0 flex flex-col justify-center items-center">
-                {/* Your page content goes here */}
                 <Image
                     src="/car-top-view.svg"
                     alt="Download"
@@ -44,7 +42,6 @@ export default function Download() {
                     </h3>
                 </div>
             </div>
-            {/* Background image */}
             <div
                 className="absolute bottom-0 left-0 right-0 md:w-full w-[350%] h-full bg-bottom bg-no-repeat bg-contain -z-10"
                 style={{ backgroundImage: "url('/purple-ellipse.svg')" }}
