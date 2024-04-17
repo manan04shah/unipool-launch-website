@@ -10,7 +10,7 @@ import Navbar from "./navbar";
 export default function Download() {
     const downloadFile = () => {
         saveAs(
-            "https://github.com/technical-director-acmvit/unipool-launch-website/releases/download/v1.0.0/unipool.apk",
+            "https://github.com/technical-director-acmvit/unipool-launch-website/releases/download/v1.0.0/UniPoolFinal.apk",
             "UniPool.apk"
         )
     }
