@@ -67,7 +67,7 @@ export default function About() {
                         </CarouselItem>
                         <CarouselItem className="flex flex-col justify-center items-center">
                             <Image
-                                src="/reject.svg"
+                                src="/rejectUser.svg"
                                 alt="Accept/Reject page screenshot"
                                 width={250}
                                 height={250}
