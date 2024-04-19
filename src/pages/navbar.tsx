@@ -21,6 +21,11 @@ export default function Navbar() {
                     Download
                 </h2>
             </Link>
+            <Link href="/delete">
+                <h2 className="text-text-purple transition duration-300 hover:underline transform hover:-translate-y-1">
+                    Delete
+                </h2>
+            </Link>
             {/* <Link href="/report">
                 <h2 className="text-text-purple transition duration-300 hover:underline transform hover:-translate-y-1">
                     Report a Bug
