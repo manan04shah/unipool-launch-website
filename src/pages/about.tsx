@@ -62,7 +62,7 @@ export default function About() {
                                 quality={100}
                             />
                             <h2 className="text-white text-xl font-bold text-center pt-5">
-                                Request to join someone's carpool!
+                                Request to join someone&apos;s carpool!
                             </h2>
                         </CarouselItem>
                         <CarouselItem className="flex flex-col justify-center items-center">

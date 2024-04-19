@@ -50,7 +50,7 @@ export default function Delete() {
       <Navbar />
       <div className="left-box bg-white w-full order-1 md:w-1/2 h-full flex flex-col justify-center items-center p-10">
         <h1 className="text-4xl font-extrabold text-text-purple mb-5 md:mt-0 mt-5">
-          Delete my data!
+          Delete my data
         </h1>
         <Image
           src="/unipool-main-logo.svg"
