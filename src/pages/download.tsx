@@ -5,14 +5,14 @@ import Image from "next/image";
 import { saveAs } from "file-saver";
 import "../app/globals.css"
 import Navbar from "./navbar";
-
+import { link } from "fs";
+import { useRouter } from "next/navigation";
 
 export default function Download() {
+    const router = useRouter();
+
     const downloadFile = () => {
-        saveAs(
-            "https://github.com/technical-director-acmvit/unipool-launch-website/releases/download/v1.0.0/uni-pool.apk",
-            "UniPool.apk"
-        )
+        router.push("https://play.google.com/store/apps/details?id=com.carpoolitapp&hl=en_IN&pli=1");
     }
 
     return (
@@ -27,11 +27,11 @@ export default function Download() {
                     quality={100}
                 />
                 <h1 className="text-3xl text-white font-bold">
-                    Download the APK now!
+                    Download the App Now!
                 </h1>
                 <div className="download-button pt-5">
                     <button onClick={downloadFile} className="bg-text-purple text-white rounded-full px-4 py-2 w-[60vw] md:w-[15vw]">
-                        Download
+                        Google Play Store
                     </button>
 
                     <h3 className="text-white text-sm pt-5 text-center">

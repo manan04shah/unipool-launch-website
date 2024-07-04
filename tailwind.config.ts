@@ -18,6 +18,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        bricolage: ["Bricolage Grotesque", "sans-serif"],
+      },
       colors: {
         "text-purple": "#49108B",
         "main-grey": "#D9D9D9",
